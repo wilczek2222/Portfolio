@@ -1,0 +1,45 @@
+@media all and (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    nav label {
+        display: block;
+        color: #fff;
+        text-align: right;
+    }
+
+    .main-nav {
+        height: auto;
+        min-height: 50px;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    nav input:checked + ul {
+        display: block;
+    }
+
+    .about img {
+        width: 60%;
+    }
+
+    .portfolio-inner {
+        flex-basis: 100%;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+
+    .contact form input:not(.btn),
+    .contact form textarea {
+        flex-basis: 100%;
+    }
+
+    section:not(.portfolio) {
+        padding: 50px 30px;
+    }
+}
