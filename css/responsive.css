@@ -26,7 +26,7 @@
         width: 60%;
     }
 
-    .portfolio-inner {
+    .skill-inner {
         flex-basis: 100%;
     }
 
@@ -39,7 +39,7 @@
         flex-basis: 100%;
     }
 
-    section:not(.portfolio) {
+    section:not(.skll) {
         padding: 50px 30px;
     }
 }
